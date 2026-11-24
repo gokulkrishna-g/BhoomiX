@@ -1,0 +1,19 @@
+{
+  "model_name": "GradientBoostingClassifier (Crop Failure Risk Warning)",
+  "features": [
+    "rainfall_deviation",
+    "temperature_stress",
+    "soil_moisture",
+    "ph_deviation",
+    "npk_deficiency",
+    "pest_pressure"
+  ],
+  "risk_levels": [
+    "Low",
+    "Moderate",
+    "High",
+    "Severe"
+  ],
+  "test_accuracy": 0.87875,
+  "samples": 4000
+}

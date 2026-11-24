@@ -1,0 +1,20 @@
+{
+  "model_name": "RandomForestClassifier (Pest & Weed Detection)",
+  "dataset": "insects.v1-release-640.yolov8.zip + grass weeds.v1-release-640.yolov8.zip",
+  "total_images_processed": 420,
+  "test_accuracy": 0.6190476190476191,
+  "classes": [
+    "army worm",
+    "legume blister beetle",
+    "red spider",
+    "rice gall midge",
+    "rice leaf roller",
+    "rice leafhopper",
+    "rice water weevil",
+    "wheat phloeothrips",
+    "white backed plant hopper",
+    "yellow rice borer",
+    "agricultural weed",
+    "healthy crop leaf"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "model_name": "RandomForestClassifier (Crop Recommendation)",
+  "dataset": "Crop_recommendation.csv",
+  "total_samples": 2200,
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "num_classes": 22,
+  "classes": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "test_accuracy": 0.9954545454545455,
+  "cv_mean_accuracy": 0.9945454545454545,
+  "cv_std": 0.0023177361425421525,
+  "feature_importances": {
+    "N": 0.1045,
+    "P": 0.1511,
+    "K": 0.1727,
+    "temperature": 0.0691,
+    "humidity": 0.2213,
+    "ph": 0.0489,
+    "rainfall": 0.2324
+  }
+}

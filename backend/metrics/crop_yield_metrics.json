@@ -1,0 +1,17 @@
+{
+  "model_name": "RandomForestRegressor (Crop Yield Prediction)",
+  "dataset": "ICRISAT-District Level Data.csv",
+  "records_trained": 63116,
+  "r2_score": 0.905263326567494,
+  "rmse_kg_per_ha": 616.6527316866134,
+  "crops_covered": [
+    "COTTON",
+    "GROUNDNUT",
+    "MAIZE",
+    "RICE",
+    "SORGHUM",
+    "SUGARCANE",
+    "WHEAT"
+  ],
+  "states_covered_count": 20
+}
